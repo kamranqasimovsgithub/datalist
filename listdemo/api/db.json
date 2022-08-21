@@ -1,0 +1,57 @@
+{
+    "posts": [
+        {
+          "id":1,
+          "taskName":"Cable Installation",
+          "taskStatus":0,
+          "parentId":null
+        },
+        {
+          "id":2,
+          "taskName":"Cable Tray Installation",
+          "taskStatus":0,
+          "parentId":1
+        },
+        {
+          "id":3,
+          "taskName":"Tray Installation",
+          "taskStatus":0,
+          "parentId":2
+        },
+        {
+          "id":4,
+          "taskName":"Component Setting",
+          "taskStatus":0,
+          "parentId":5
+        },
+        {
+          "id":5,
+          "taskName":"Tray Connection",
+          "taskStatus":0,
+          "parentId":1
+        },
+        
+        {
+          "id":6,
+          "taskName":"Frequency Testing",
+          "taskStatus":0,
+          "parentId":null
+        }
+        ,
+        
+        {
+          "id":7,
+          "taskName":"Manual Management",
+          "taskStatus":0,
+          "parentId":2
+        }
+        ,
+        
+        {
+          "id":8,
+          "taskName":"Connection Test",
+          "taskStatus":0,
+          "parentId":1
+        }
+    ]
+  }
